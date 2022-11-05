@@ -8,6 +8,7 @@ body {
 a {
   color: #333;
   text-decoration: none;
+  margin: 5px;
 }
 .content {
   max-width: 960px;
@@ -35,3 +36,13 @@ footer {
   color: #777;
   border-top: 1px solid #eaeaea;
 }
+
+.not-found {
+  text-align: center;
+}
+
+.not-found a {
+  color: #4979ff;
+  text-decoration: underline;
+}
+
