@@ -1,11 +1,17 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import Footer from '../components/footer'
+import Navbar from '../components/navbar'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
   return (
     <div>
+      <Navbar />
       <h1>Homepage</h1>
+      <p>lorem ipsumloremlorem ipsumloremlorem ipsumloremlorem ipsumloremlorem ipsumloremlorem ipsumloremlorem ipsumlorem</p>
+      <p>lorem ipsumloremlorem ipsumloremlorem ipsumloremlorem ipsumloremlorem ipsumloremlorem ipsumloremlorem ipsumlorem</p>
+      <Footer />
     </div>
     )
 }
