@@ -1,6 +1,6 @@
 const Wtf = () => {
   return (
-    <div>Wtf</div>
+    <div>Details Page</div>
   )
 }
 
