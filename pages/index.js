@@ -16,7 +16,7 @@ export default function Home() {
         <h1 className={styles.title}>Homepage</h1>
         <p className={styles.text}>lorem ipsumloremlorem ipsumloremlorem ipsumloremlorem ipsumloremlorem ipsumloremlorem ipsumloremlorem ipsumlorem</p>
         <p className={styles.text}>lorem ipsumloremlorem ipsumloremlorem ipsumloremlorem ipsumloremlorem ipsumloremlorem ipsumloremlorem ipsumlorem</p>
-        <Link className={styles.btn} href="/ninjas/ninja">Ninja Listing</Link>
+        <Link className={styles.btn} href="/ninjas">Ninja Listing</Link>
       </div>
     </>
     )
